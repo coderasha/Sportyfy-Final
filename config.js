@@ -1,5 +1,5 @@
-export const nftaddress = "0x0c3a5563a4aE4c008593eaDeC24125475e3aa37b";
-export const nftmarketaddress = "0x3d63CC6672Ff08479EadC4606EFD22aeDa592C9E";
+export const nftaddress = "0x6c78121412d71199F894dfa93F09d013AE30080b";
+export const nftmarketaddress = "0x27E63fC1682DEAa35C0Bf0d943aFC5BfE051f6Ec";
 //EDIT !!!
 let x = 1;
 //change the above everytime you redeploy your contracts

@@ -31,8 +31,9 @@ export default function CreateItem() {
             )
             //file saved in the url path below
             const url = `https://ipfs.infura.io/ipfs/${added.path}`
+            console.log(url )
             setFileUrl(url)
-        }catch(e){
+        }catch(e){""
             console.log('Error uploading file: ', e)
         }
     }
@@ -54,6 +55,7 @@ export default function CreateItem() {
             const added = await client.add(data)
             const url = `https://ipfs.infura.io/ipfs/${added.path}`
             //pass the url to sav eit on Polygon adter it has been uploaded to IPFS
+            console.log(url)
             createSale(url)
         }catch(error){
             console.log(`Error uploading file: `, error)
